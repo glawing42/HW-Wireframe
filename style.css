@@ -9,16 +9,19 @@
 
 body {
 	font-size: 18px;
-	background-color: #888;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #777;
+	width: 960px;
+	text-align: center;
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: -350px;
   color: #333;
-  background: #eee;
+  background: #ebebeb;
 }
 
 section {
@@ -28,50 +31,56 @@ section {
 
 #nav {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: -350px;
   color: #333;
-  background: #eee;
+  background: #ebebeb;
 }
 
 #left{
   padding: 20px;
   color: #333;
-  background: #eee;
+  background: #ebebeb;
   margin-left: 50px;
+  margin-right: 20px;
   float: left;
-  width: 45%;
+  width: 60%;
+  border: 1px solid #ebebeb;
+
 }
 
 #article{
 	background-color: #888;
 	color: white;
+	margin-top: 20px;
 }
 
 #h1{
   padding: 20px;
   color: #333;
-  background: #eee;
+  background: #ebebeb;
+  margin-top: 20px;
   
 }
 
 #p{
   padding: 20px;
   color: #333;
-  background: #eee;
+  background: #ebebeb;
 
 }
-
-#right{
+.aside{
   padding: 20px;
   color: #333;
-  background: #eee;
-  float: left;
-  width: 45%;
-  margin-right: 50px;
-  border: 1px solid #eee;
-
+  background-color: #ebebeb;
+  margin-left: 50px;
+  margin-right: -200px;
+  margin-top: -326px;
+  margin-bottom: 20px;
+  float: right;
+  width: 50%;
+  border: 1px solid #ebebeb;
 }
 
 #full {
@@ -86,7 +95,7 @@ footer {
   padding: 20px;
   margin-bottom: 20px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: -350px;
   color: #333;
   background: #eee;
   clear: both;
